@@ -264,7 +264,7 @@ result_list = con.execute(f"""SELECT username , password , first_name, last_name
 # list_tables_in_duckdb(db_file)
 
 con.execute("UPDATE subject set name = 'DBP'  \
-                     WHERE id = 1 ")
+                     WHERE id = 1 ")    
 
 
 
